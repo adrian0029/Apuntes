@@ -115,3 +115,37 @@ console.log(a > 3);
 // Operadores lógicos
 let d = true;
 let t = false;
+
+// alert("Estamos en el archivo de estructuraciclo.js")
+
+for(let i=0;i<=10;i++){
+    console.log("[for]No iteracion: "+i);
+}
+  let contador=1;
+
+  while (contador<10){
+
+    console.log("[while]No iteracion: "+contador);
+    contador++;
+}
+//do / while
+let numero=1;
+do{
+    console.log("[do/while ]No iteracion"+numero);
+    numero++;
+}while(numero<10);
+
+//for in
+
+let estudiante={nombre:"Adrian", edad:10, calificacion :100};
+for(let propiedad in estudiante){
+    console.log(propiedad+ ": " +estudiante[propiedad]);
+}
+
+//for.. of
+//Este ciclo itera sobre los valores de un objeto iterable (como un array).
+let mis_numero=[10,20,30,40,50];
+for(let numero of mis_numero){
+    console.log(numero);
+}
+
